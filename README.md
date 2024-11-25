@@ -46,7 +46,7 @@ sklearn
 ## Cómo usar el proyecto
 
 Este es el link para clonar el proyecto
-git clone https://github.com/tuusuario/nombre-repositorio.git
+git clone https://github.com/LuisStatsOps/Clustering_educacion.git
 
 Configura los datos:
 
