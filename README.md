@@ -1,5 +1,5 @@
 
-# Identificación de Perfiles Característicos en Educación Superior mediante Clustering
+# Identificación de Perfiles Educativos en el ámbito de la Educación Superior mediante Clustering
 
 Este proyecto implementa técnicas de aprendizaje no supervisado para identificar perfiles característicos de estudiantes universitarios en Ecuador. Utiliza algoritmos de clustering, como K-modes y clustering jerárquico, aplicados a un conjunto de datos con información demográfica y académica. El análisis permite identificar patrones y problemáticas clave en el sistema de educación superior, proporcionando una base sólida para la formulación de políticas públicas y estrategias educativas.
 
@@ -46,7 +46,7 @@ sklearn
 ## Cómo usar el proyecto
 
 Este es el link para clonar el proyecto
-git clone https://github.com/tuusuario/nombre-repositorio.git
+git clone https://github.com/LuisStatsOps/Clustering_educacion.git
 
 Configura los datos:
 
