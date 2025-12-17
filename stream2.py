@@ -108,7 +108,7 @@ fig_prog = px.sunburst(
     values="Cantidad de Carreras",
     color="TIPO_FINANCIAMIENTO",
     color_discrete_map={
-        "PÚBLICA": "#C9A227",
+        "PÚBLICA": "#D4AF37",
         "PARTICULAR": "#1F3A5F",
     },     
     title="Programs/Courses",
