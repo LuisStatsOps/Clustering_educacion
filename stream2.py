@@ -122,7 +122,7 @@ total_carreras = int(sunburst_prog["Cantidad de Carreras"].sum())
 fig_prog.update_layout(
     title_x=0.5,
     annotations=[dict(text=f"{total_carreras}", x=0.5, y=0.48, showarrow=False, font=dict(size=24, color="black"))],
-    paper_bgcolor="white",
+    paper_bgcolor="black",
     font=dict(size=20),
     margin=dict(t=50, l=10, r=10, b=10),
 )
