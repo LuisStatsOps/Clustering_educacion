@@ -107,7 +107,10 @@ fig_prog = px.sunburst(
     path=["Total", "TIPO_FINANCIAMIENTO", "NIVEL_FORMACIÓN", "MODALIDAD", "CAMPO_AMPLIO"],
     values="Cantidad de Carreras",
     color="TIPO_FINANCIAMIENTO",
-    color_discrete_sequence=color_sequence,
+    color_discrete_map={
+        "PÚBLICA": "#C9A227",
+        "PARTICULAR": "#1F3A5F",
+    },     
     title="Programs/Courses",
 )
 
@@ -116,6 +119,7 @@ fig_prog.update_traces(
     hoverinfo="label+percent entry",
     insidetextorientation="radial",
     textfont_size=12,
+    marker=dict(line=dict(color="white", width=1))  # separadores elegantes
 )
 
 total_carreras = int(sunburst_prog["Cantidad de Carreras"].sum())
@@ -173,7 +177,7 @@ total_est = int(sunburst_stu["Total Estudiantes"].sum())
 fig_stu.update_layout(
     title_x=0.5,
     annotations=[dict(text=f"{total_est}", x=0.5, y=0.48, showarrow=False, font=dict(size=24, color="black"))],
-    paper_bgcolor="white",
+    paper_bgcolor="black",
     font=dict(size=20),
     margin=dict(t=50, l=10, r=10, b=10),
 )
