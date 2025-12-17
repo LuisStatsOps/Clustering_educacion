@@ -119,8 +119,7 @@ fig_prog.update_traces(
     hoverinfo="label+percent entry",
     insidetextorientation="radial",
     textfont_size=12,
-    marker=dict(line=dict(color="white", width=1), opacity=0.95),
-   
+    marker=dict(line=dict(color="white", width=1))  
 )
 
 total_carreras = int(sunburst_prog["Cantidad de Carreras"].sum())
