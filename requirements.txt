@@ -2,4 +2,8 @@ plotly
 gdown
 networkx
 squarify
+pandas
 openpyxl
+numpy
+kaleido
+matplotlib
