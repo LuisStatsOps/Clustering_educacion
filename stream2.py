@@ -120,7 +120,7 @@ fig_prog.update_traces(
     insidetextorientation="radial",
     textfont_size=12,
     marker=dict(line=dict(color="white", width=1), opacity=0.95),
-    root=dict(color="#D4AF37")  # ✅ centro dorado
+   
 )
 
 total_carreras = int(sunburst_prog["Cantidad de Carreras"].sum())
